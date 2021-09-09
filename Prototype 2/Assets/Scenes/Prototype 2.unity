@@ -154,7 +154,6 @@ MonoBehaviour:
   - {fileID: 6310958315333906126, guid: ab7f57e17bd755f419e1e2cff1528715, type: 3}
   - {fileID: 5074121820556914182, guid: 85913b75f7210d848af11a05c4cac475, type: 3}
   - {fileID: 2686391068715285698, guid: e253990152ac96545bc8d6ad13b149aa, type: 3}
-  animalIndex: 2
 --- !u!4 &100324226
 Transform:
   m_ObjectHideFlags: 0
@@ -611,7 +610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 10
+  speed: 12.5
   xRange: 10
   projectilePrefab: {fileID: 5053263274472459782, guid: 514fd669a6078ac4b84bff818a8a73da,
     type: 3}
