@@ -11,16 +11,13 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        InvokeRepeating("SpawnRandomAnimal", 1.5f, 1);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            SpawnRandomAnimal();
-        }
+
     }
 
     void SpawnRandomAnimal()
